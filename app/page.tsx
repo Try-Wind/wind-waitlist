@@ -22,11 +22,7 @@ export default function Home() {
           href="https://github.com/Try-Wind" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white hover:bg-white/20 transition-all duration-200 group"
-          onClick={(e) => {
-            e.preventDefault();
-            window.open('https://github.com/Try-Wind', '_blank', 'noopener,noreferrer');
-          }}
+          className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white hover:bg-white/20 transition-all duration-200 group cursor-pointer"
         >
           <span className="text-sm font-medium">Github</span>
           <svg 
