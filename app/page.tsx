@@ -11,8 +11,13 @@ export default function Home() {
         <Image src="/wind-background.png" alt="Wind background" fill className="object-cover" priority />
       </div>
 
+      {/* Logo */}
+      <div className="absolute top-8 left-8 z-10 flex items-center">
+        <Image src="/wind-logo.png" alt="Wind logo" width={90} height={90} className="opacity-95 drop-shadow-sm" />
+      </div>
+
       {/* GitHub Button */}
-      <div className="absolute top-8 left-8 z-10">
+      <div className="absolute top-8 right-8 z-10 flex items-center">
         <a 
           href="https://github.com/Try-Wind" 
           target="_blank" 
@@ -33,11 +38,6 @@ export default function Home() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17L17 7M17 7H7M17 7V17" />
           </svg>
         </a>
-      </div>
-
-      {/* Logo */}
-      <div className="absolute top-8 right-8 z-10">
-        <Image src="/wind-logo.png" alt="Wind logo" width={90} height={90} className="opacity-95 drop-shadow-sm" />
       </div>
 
       {/* Content */}
@@ -62,8 +62,9 @@ export default function Home() {
           text-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
         }
         .wind-font {
-          font-family: 'Fredoka One', 'Bungee Shade', cursive;
-          letter-spacing: 0.05em;
+          font-family: 'Griffy', 'Kalam', cursive;
+          letter-spacing: 0.02em;
+          font-weight: 400;
         }
       `}</style>
     </main>
