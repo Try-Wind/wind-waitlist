@@ -18,6 +18,10 @@ export default function Home() {
           target="_blank" 
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white hover:bg-white/20 transition-all duration-200 group"
+          onClick={(e) => {
+            e.preventDefault();
+            window.open('https://github.com/Try-Wind', '_blank', 'noopener,noreferrer');
+          }}
         >
           <span className="text-sm font-medium">Github</span>
           <svg 
@@ -58,15 +62,8 @@ export default function Home() {
           text-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
         }
         .wind-font {
-          font-family: 'Creepster', 'Bungee', cursive;
-          animation: wobble 3s ease-in-out infinite;
-          transform-origin: center;
-        }
-        @keyframes wobble {
-          0%, 100% { transform: rotate(0deg) scale(1); }
-          25% { transform: rotate(0.5deg) scale(1.01); }
-          50% { transform: rotate(-0.5deg) scale(0.99); }
-          75% { transform: rotate(0.3deg) scale(1.01); }
+          font-family: 'Fredoka One', 'Bungee Shade', cursive;
+          letter-spacing: 0.05em;
         }
       `}</style>
     </main>
