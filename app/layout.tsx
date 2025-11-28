@@ -5,7 +5,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Wind',
-  description: 'The next gen memory layer for AI',
+  description: 'Coming soon...',
   generator: 'Wind',
   icons: {
     icon: '/wind-logo.png',
